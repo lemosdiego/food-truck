@@ -1,0 +1,44 @@
+footer {
+  @apply bg-[#121212] 
+        text-white
+        w-full;
+}
+
+.content-footer {
+  @apply flex
+        xl:p-32 xl:gap-40;
+}
+.logo-footer {
+  @apply flex 
+        xl:w-[20vw] xl:gap-2;
+}
+
+.logo-footer img {
+  @apply w-28;
+}
+
+.content-footer p {
+  @apply xl:text-xl;
+}
+
+.nav-footer ul {
+  @apply flex
+    flex-col
+    mt-1
+    xl:text-lg;
+}
+.nav-footer h4 {
+  @apply text-xl;
+}
+.social-footer {
+  @apply bg-[#F1C40F]
+        flex
+        items-center
+        justify-center
+        
+        xl:p-8 xl:gap-5;
+}
+
+.copyright {
+  @apply xl:p-8;
+}

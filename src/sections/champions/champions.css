@@ -1,0 +1,59 @@
+.champions {
+  background-image: url("https://res.cloudinary.com/dkrpmbjml/image/upload/v1749308432/cardapio_urmw5q.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Lilita One", sans-serif;
+
+  @apply relative
+        w-full
+        flex
+        flex-col
+        items-center
+        justify-center
+        text-white 
+        xl:gap-4 xl:p-16 xl:mt-4;
+}
+.champions h2 {
+  @apply z-10 
+        text-5xl;
+}
+
+.container-card {
+  @apply z-10 
+        grid
+        xl:grid-cols-4 xl:gap-7 xl:p-4;
+}
+
+.overlay-champions {
+  @apply bg-[#000000e5]
+         absolute
+         w-full
+         h-full;
+}
+
+.card-champions {
+  @apply xl:w-[300px];
+}
+.card-champions img {
+  @apply w-full
+        xl:h-[250px];
+}
+
+.content-champions {
+  @apply pt-2;
+}
+.content-champions h3 {
+  @apply text-3xl;
+}
+.content-champions p {
+  @apply text-lg;
+}
+
+.button-champions {
+  @apply text-[#F1C40F]
+        hover:text-[#F1310F]
+        font-semibold
+        text-xl;
+}

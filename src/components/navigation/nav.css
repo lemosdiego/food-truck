@@ -1,0 +1,29 @@
+.container-navigation {
+  @apply absolute
+        -bottom-10
+        p-2;
+}
+
+.list-navigation {
+  @apply flex
+       xl:gap-4;
+}
+
+.item-navigation {
+  @apply bg-[#F1C40F]
+        hover:bg-[#ff5c00]
+        cursor-pointer
+        rounded
+        shadow-2xl
+        text-white
+        font-semibold
+        xl:h-16 xl:w-80;
+}
+.navigation {
+  @apply w-full
+        h-full
+        flex
+        items-center
+        justify-center
+        xl:p-4;
+}

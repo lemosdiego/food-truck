@@ -1,0 +1,32 @@
+.differential {
+  @apply flex
+        flex-col
+        items-center
+        justify-center
+         p-4 
+        text-white
+        xl:mt-2 xl:p-28 xl:gap-4;
+}
+.differential h2 {
+  @apply xl:text-4xl;
+}
+
+.container-card-differential {
+  @apply grid 
+        xl:grid-cols-2 xl:gap-8 xl:p-4;
+}
+
+.card-differential {
+  @apply flex
+        items-center
+        justify-center
+        xl:w-[500px] xl:gap-1;
+}
+
+.content-differential {
+  @apply p-1;
+}
+
+.content-differential h3 {
+  @apply text-xl;
+}

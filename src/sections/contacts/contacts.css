@@ -1,0 +1,61 @@
+.contacts {
+  @apply text-white 
+        flex
+        xl:p-20 xl:gap-2;
+}
+
+.content-contacts {
+  @apply flex
+        flex-col
+
+        xl:w-[30vw] xl:p-4 xl:gap-3;
+}
+.content-contacts h3 {
+  @apply text-3xl;
+}
+.content-contacts p {
+  @apply text-xl;
+}
+
+.container-form {
+  @apply flex
+        xl:p-4;
+}
+
+form {
+  @apply flex
+        flex-col
+        xl:gap-3 xl:w-[500px];
+}
+form div {
+  @apply grid 
+        grid-cols-2
+        gap-2;
+}
+input {
+  @apply h-11
+        p-2
+        bg-transparent
+        border border-[#F1C40F]
+        outline-none;
+}
+textarea {
+  @apply h-20
+        p-2
+        bg-transparent
+        border border-[#F1C40F]
+        outline-none
+        resize-none;
+}
+.container-form button {
+  @apply bg-[#ff5c00]
+        hover:bg-[#F1C40F]
+            h-11;
+}
+
+.link-media {
+  @apply text-[#F1C40F]
+        hover:text-[#ff5c00]
+        text-lg
+        font-semibold;
+}

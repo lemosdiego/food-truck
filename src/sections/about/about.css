@@ -1,0 +1,26 @@
+.about {
+  @apply text-white
+        flex
+        items-center
+        justify-center
+        xl:w-[80vw] xl:mt-10 xl:p-8 xl:gap-4;
+}
+
+.about img {
+  @apply rounded-md
+        shadow-xl
+        xl:h-[550px] xl:w-[400px];
+}
+
+.content {
+  @apply flex
+        flex-col
+        xl:w-[50%] xl:p-5 xl:gap-4;
+}
+.content h2 {
+  @apply text-4xl;
+}
+
+.content p {
+  @apply xl:text-lg;
+}

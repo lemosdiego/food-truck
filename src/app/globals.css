@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  font-family: "Lilita One", sans-serif;
+}
+
 body {
   @apply bg-[#000000];
+}
+
+main {
+  @apply flex 
+        flex-col
+        items-center
+        justify-center;
 }

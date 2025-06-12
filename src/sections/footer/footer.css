@@ -1,30 +1,46 @@
 footer {
-  @apply bg-[#121212] 
-        text-white
+  @apply relative 
+      text-white 
+        z-20
         w-full;
 }
 
+.overlay-footer {
+  @apply bg-[#000000f3] 
+         absolute
+         -z-10
+         w-full h-full;
+}
+
 .content-footer {
-  @apply flex
+  @apply flex 
+        justify-center
+        xs:flex-col xs:gap-3 xs:p-4
+        sm:flex-col sm:gap-3 sm:p-8
+        md:p-10 md:gap-24
+        lg:p-24 lg:gap-28
         xl:p-32 xl:gap-40;
 }
 .logo-footer {
-  @apply flex 
-        xl:w-[20vw] xl:gap-2;
-}
-
-.logo-footer img {
-  @apply w-28;
+  @apply flex
+        md:w-[25vw] md:gap-2
+        lg:w-[25vw] lg:gap-2
+        xl:w-[15vw] xl:gap-2;
 }
 
 .content-footer p {
-  @apply xl:text-xl;
+  @apply z-20 
+        sm:text-lg sm:w-[90%]
+        lg:text-xl 
+        xl:text-xl;
 }
 
 .nav-footer ul {
   @apply flex
     flex-col
     mt-1
+    md:text-base
+    lg:text-lg
     xl:text-lg;
 }
 .nav-footer h4 {
@@ -35,10 +51,21 @@ footer {
         flex
         items-center
         justify-center
-        
+        xs:p-2 xs:gap-3 
+        sm:p-3 sm:gap-4
+        md:p-4 md:gap-5
+        lg:p-5 lg:gap-5 
         xl:p-8 xl:gap-5;
 }
 
 .copyright {
-  @apply xl:p-8;
+  @apply flex
+        items-center
+        justify-center
+        text-center
+        xs:text-xs xs:p-4
+        sm:text-sm sm:p-4
+        md:text-sm md:p-4
+        lg:p-4
+        xl:p-8;
 }

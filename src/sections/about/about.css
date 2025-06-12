@@ -3,24 +3,44 @@
         flex
         items-center
         justify-center
+        xs:flex-col xs:p-4 xs:mt-4 xs:gap-2 xs:mb-4
+        sm:flex-col sm:p-8 sm:mt-4 sm:gap-2 sm:mb-4
+        md:p-10 md:gap-3 md:mt-4
+        lg:w-[90vw] lg:mt-8 lg:p-6 lg:gap-4
         xl:w-[80vw] xl:mt-10 xl:p-8 xl:gap-4;
 }
 
 .about img {
   @apply rounded-md
         shadow-xl
+        xs:w-full xs:h-72
+        sm:w-full sm:h-[350px]
+        md:h-[450px] md:w-[40vw]
+        lg:h-[500px] lg:w-[350px]
         xl:h-[550px] xl:w-[400px];
 }
 
 .content {
   @apply flex
         flex-col
+        xs:gap-2
+        sm:gap-3
+        md:p-4 md:gap-2
+        lg:w-[50%] lg:p-4 lg:gap-3
         xl:w-[50%] xl:p-5 xl:gap-4;
 }
 .content h2 {
-  @apply text-4xl;
+  @apply xs:text-3xl
+        sm:text-4xl
+        md:text-4xl
+        lg:text-4xl
+        xl:text-4xl;
 }
 
 .content p {
-  @apply xl:text-lg;
+  @apply xs:text-base
+        sm:text-lg
+        md:text-lg
+        lg:text-lg 
+        xl:text-lg;
 }

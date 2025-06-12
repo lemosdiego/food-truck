@@ -40,7 +40,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section className="testimonials">
+    <section className="testimonials bg-image">
       <div className="overlay-testimonials"></div>
       <h2>Quem Prova, Aprova</h2>
       <div className="container-card-testimonials">

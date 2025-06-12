@@ -39,7 +39,7 @@ const championsData = [
 
 export default function Champions() {
   return (
-    <section className="champions" id="champions">
+    <section className="champions bg-image" id="champions">
       <div className="overlay-champions"></div>
       <h2>Nossos Campeões</h2>
       <div className="container-card">

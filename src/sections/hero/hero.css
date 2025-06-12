@@ -9,9 +9,12 @@ header {
         flex-col
         items-center
         justify-center
-        xl:gap-4
-        xs:h-[50vh] xs:p-4 
-        xl:h-[720px];
+        text-center
+        xs:p-4 xs:pt-20 xs:pb-20 xs:gap-3
+        sm:p-8 sm:pt-20 sm:pb-20 sm:gap-2
+        md:h-[500px] md:gap-4
+        lg:h-[550px] lg:gap-4
+        xl:h-[720px] xl:gap-4;
 }
 
 header img {
@@ -19,26 +22,35 @@ header img {
         top-5
         left-5
         z-10
-        xl:w-80;
+        xs:w-24
+        sm:w-28
+        md:w-32
+        lg:w-52
+        xl:w-56;
 }
 
 header h1 {
-  font-family: "Lilita One", sans-serif;
   text-shadow: -8px 0px 6px #ff5c00;
-  @apply text-white 
-        z-10 
+  @apply text-white
+        z-10
+        xs:text-4xl
+        sm:text-5xl
+        md:text-5xl 
+        lg:text-6xl 
         xl:text-7xl;
 }
 header p {
-  font-family: "Lilita One", sans-serif;
   @apply text-white 
         z-10
-        text-center 
-        xl:text-3xl;
+        xs:text-lg xs:w-full
+        sm:text-2xl
+        md:text-3xl
+        lg:text-3xl
+        xl:text-3xl xl:text-center;
 }
 
 .container-buttons {
-  @apply grid
+  @apply grid 
         grid-cols-2
         gap-2;
 }
@@ -54,7 +66,10 @@ header p {
         rounded
         shadow-lg
         text-white
-
+        xs:h-10 xs:text-xs
+        sm:h-10 sm:text-xs sm:w-40
+        md:h-11 md:w-52 md:text-base
+        lg:h-11 lg:text-sm lg:w-60
         xl:text-sm xl:h-11 xl:w-64;
 }
 

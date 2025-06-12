@@ -1,29 +1,35 @@
 .champions {
-  background-image: url("https://res.cloudinary.com/dkrpmbjml/image/upload/v1749308432/cardapio_urmw5q.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: "Lilita One", sans-serif;
-
   @apply relative
         w-full
         flex
         flex-col
         items-center
         justify-center
-        text-white 
-        xl:gap-4 xl:p-16 xl:mt-4;
+        text-white
+        gap-4
+        xs:p-4
+        sm:p-8
+        md:p-10
+        lg:p-14 
+        xl:p-16 xl:mt-4;
 }
 .champions h2 {
-  @apply z-10 
-        text-5xl;
+  @apply z-10
+        xs:text-3xl
+        sm:text-4xl
+        md:text-4xl
+        lg:text-5xl 
+        xl:text-5xl;
 }
 
 .container-card {
   @apply z-10 
         grid
-        xl:grid-cols-4 xl:gap-7 xl:p-4;
+        xs:gap-3
+        sm:grid-cols-2 sm:gap-4 sm:mt-2
+        md:grid-cols-3 md:gap-4 md:mt-3
+        lg:grid-cols-4 lg:gap-4 lg:mt-5 lg:w-[95%]
+        xl:grid-cols-4 xl:gap-7 xl:p-4 xl:w-[90%];
 }
 
 .overlay-champions {
@@ -33,22 +39,25 @@
          h-full;
 }
 
-.card-champions {
-  @apply xl:w-[300px];
-}
 .card-champions img {
   @apply w-full
-        xl:h-[250px];
+        h-[250px];
 }
 
 .content-champions {
   @apply pt-2;
 }
 .content-champions h3 {
-  @apply text-3xl;
+  @apply xs:text-2xl
+        sm:text-2xl
+        lg:text-3xl 
+        xl:text-3xl;
 }
 .content-champions p {
-  @apply text-lg;
+  @apply xs:text-base
+        sm:text-base
+        lg:text-lg 
+        xl:text-lg;
 }
 
 .button-champions {

@@ -9,32 +9,29 @@ import {
 
 const iconsFooter = [
   {
-    icon: <FaWhatsapp size={35} />,
+    icon: <FaWhatsapp size={25} />,
     link: "https://wa.me/seunumero",
   },
   {
-    icon: <FaInstagram size={35} />,
+    icon: <FaInstagram size={25} />,
     link: "https://instagram.com/seuperfil",
   },
   {
-    icon: <FaFacebookF size={35} />,
+    icon: <FaFacebookF size={25} />,
     link: "https://facebook.com/seupagina",
   },
   {
-    icon: <FaYoutube size={35} />,
+    icon: <FaYoutube size={25} />,
     link: "https://youtube.com/seucanal",
   },
 ];
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-image">
+      <div className="overlay-footer"></div>
       <div className="content-footer">
         <div className="logo-footer">
-          <img
-            src="https://res.cloudinary.com/dkrpmbjml/image/upload/v1749308632/logo_tzvqdj.png"
-            alt="Logo do Hamburguer"
-          />
           <p>
             Obrigado por rodar com a gente. Que nunca falte burger, boas
             histórias e bons encontros!

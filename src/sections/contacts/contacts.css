@@ -1,31 +1,50 @@
 .contacts {
   @apply text-white 
         flex
+        xs:p-4 xs:flex-col xs:gap-2
+        sm:p-8 sm:flex-col sm:gap-2
+        md:p-10 md:gap-2
+        lg:p-14 lg:gap-2
         xl:p-20 xl:gap-2;
 }
 
 .content-contacts {
   @apply flex
         flex-col
-
+        xs:gap-2
+        sm:gap-2
+        md:w-[50vw] md:gap-2
+        lg:w-[40vw] lg:gap-2
         xl:w-[30vw] xl:p-4 xl:gap-3;
 }
 .content-contacts h3 {
-  @apply text-3xl;
+  @apply xs:text-2xl
+        sm:text-3xl
+        md:text-3xl
+        lg:text-3xl 
+        xl:text-3xl;
 }
 .content-contacts p {
-  @apply text-xl;
+  @apply xs:text-lg 
+        sm:text-lg
+        md:text-lg
+        lg:text-lg
+        xl:text-xl;
 }
 
 .container-form {
-  @apply flex
+  @apply flex 
         xl:p-4;
 }
 
 form {
   @apply flex
-        flex-col
-        xl:gap-3 xl:w-[500px];
+        flex-col        
+        gap-3
+        xs:w-full
+        sm:w-full
+        lg:w-[450px]
+        xl:w-[500px];
 }
 form div {
   @apply grid 
@@ -37,7 +56,8 @@ input {
         p-2
         bg-transparent
         border border-[#F1C40F]
-        outline-none;
+        outline-none
+        xs:text-sm;
 }
 textarea {
   @apply h-20

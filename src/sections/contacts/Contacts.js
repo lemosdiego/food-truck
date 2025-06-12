@@ -5,7 +5,7 @@ import Form from "./form/Form";
 
 export default function Contacts() {
   return (
-    <section className="contacts">
+    <section className="contacts" id="contacts">
       <div className="content-contacts">
         <h3>Quer o nosso truck no seu evento?</h3>
         <p>

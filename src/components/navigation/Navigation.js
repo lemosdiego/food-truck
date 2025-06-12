@@ -5,16 +5,19 @@ import "./nav.css";
 
 const linksNavigation = [
   {
+    id: 1,
     href: "#champions",
-    text: "Tops do truk",
+    text: "Peça Agora",
   },
   {
-    href: "/paradas",
-    text: "Próximas Paradas",
+    id: 2,
+    href: "#champions",
+    text: "Tops Búrguers",
   },
   {
-    href: "/cardapio",
-    text: "Cardápio",
+    id: 3,
+    href: "#contacts",
+    text: "Fale Conosco",
   },
 ];
 
@@ -23,7 +26,7 @@ export default function Navigation() {
     <nav className="container-navigation">
       <ul className="list-navigation">
         {linksNavigation.map((link) => (
-          <li key={link.href} className="item-navigation">
+          <li key={link.id} className="item-navigation">
             <Link href={link.href} className="navigation">
               {link.text}
             </Link>

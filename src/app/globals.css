@@ -17,3 +17,11 @@ main {
         items-center
         justify-center;
 }
+
+.bg-image {
+  background-image: url("https://res.cloudinary.com/dkrpmbjml/image/upload/v1749308432/cardapio_urmw5q.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

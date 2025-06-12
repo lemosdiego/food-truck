@@ -21,7 +21,7 @@ export const metadata = {
     title: "Ham-Burguer | Food Truck",
     description:
       "Conheça os melhores hambúrgueres artesanais direto do nosso food truck!",
-    url: "https://seusite.com", // substitua com seu domínio real
+    url: "https://food-truck-blond.vercel.app/burguer",
     siteName: "Ham-Burguer",
     images: [
       {
